@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bing's Click Quest</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Bing's Click Quest</h1>
+
+    <div id="tabButtons">
+        <button onclick="openTab('game')">Game</button>
+        <button onclick="openTab('settings')">Settings</button>
+    </div>
+
+    <div id="game" class="tab">
+        <p id="counter">0</p>
+        <button id="clicker">Click me!</button>
+        <p id="unlockProduction" class="unlock">Production unlocked!</p>
+        <button id="producer" class="unlock">Buy producer (cost: 10)</button>
+        <p id="unlockManagement" class="unlock">Management unlocked!</p>
+        <button id="manager" class="unlock">Hire manager (cost: 100)</button>
+    </div>
+
+    <div id="settings" class="tab">
+        <h2>Settings</h2>
+        <button id="import">Import</button>
+        <button id="export">Export</button>
+        <button id="reset">Reset</button>
+        <label for="tickSpeed">Tick Speed:</label>
+        <input type="range" id="tickSpeed" min="1" max="10" value="1">
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

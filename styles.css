@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+h1 {
+    color: #0078d4;
+    text-shadow: 2px 2px #bfbfbf;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#counter {
+    font-size: 2em;
+    color: green;
+}
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ddd;
+}
+.unlock {
+    color: red;
+}
+.tab {
+    display: none;
+}
+
+#tabButtons {
+    margin-top: 20px;
+}
